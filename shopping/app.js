@@ -64,10 +64,10 @@ class ShowCard {
 		</a><a href="#" class="button" item-id=${id} style="float: right;">Sepete Ekle</a></li>
 		`
 	});
-	console.log(products);
+
 	console.log(sellers);
 	console.log(all);
-	console.log(price);
+
 	productsDOM.innerHTML = card + allresults;
 	}
 
